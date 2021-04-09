@@ -1,97 +1,50 @@
 *{
-    margin:0px;
-    padding:0px;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-color: #eee;
-    font-family: 'Roboto', sans-serif;
+h1{
+    
+    text-align: center;
+    font-weight: bolder;
+    color:turquoise;
 }
-.container{
-    max-width:1000px;
-    background-color: #a2e7db;
+.body{
     margin:0 auto;
-    padding:10px;
-}
-.sunny-image{
-
-    width:100px;
-    height:120px;
-    border:3px solid white;
-    border-radius: 50%;
-    float:left;
-    
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3;
+    font-size: 0;
 
 }
-.sunny-bio{
-    float:left;
-    padding: 30px;
-}
-h1,h2,h3,h4,h5,h6{
+.body:hover{
 
-    color:#11999e;
+    box-shadow: 0 20px 35px 0 rgba(0,0,0,0.2);
 }
-.sunny-contract{
-
-    float:right;
-    padding:30px;
-}
-.sunny-contract a{
-    text-decoration: none;
-    color:teal;
+.calc-head #result{
+    width: 335px;
+    height: 100px;
+    background-color: rgb(71, 62, 58);
+    font-size: 32px;
     font-weight: bold;
-
+    text-align:right;
+    padding: 5px;
+    letter-spacing: 2px;
+    color:white;
 }
-.sunny-contract a:hover{
-    color:tomato;
+.btn{
+    width: 87px;
+    height: 70px;
+    background-color: #1f2226;
+    color:white;
 }
-.div-clear{
-    clear:both;
+.btn:hover{
+    background-color: orangered;
 }
-hr{
-
-    width: 100%;
-    border:solid black 3px;
-    margin:20px auto;
-    border-bottom: none;
+.btn-style{
+    background-color:rgb(128, 0, 38)
 }
-.content{
-margin-bottom: 30px;
-}
-.left-div{
-width: 30%;
-float:left;
-}
-.right-div{
-    float:left;
-    width: 70%;
-    font-weight: bold;
-   
-
-}
-.common-hr{
-
-    border:solid black 1px;
-    border-bottom: none;
-    margin: 20 auto;
-    width:100%;
-
-}
-.education-templet-left{
-    float:left;
-    width: 45%;
-
-}
-.education-templet-right{
-    float:right;
-    width: 45%;
-}
-.refrence-templet-left{
-    float:left;
-    width: 45%;
-
-}
-.refrence-templet-right{
-    float:right;
-    width: 45%;
-    
+.style{
+    background-color: rgb(164, 133, 235);
 }
