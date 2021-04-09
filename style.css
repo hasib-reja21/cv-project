@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width:1000px;
+    background-color: #a2e7db;
+    margin:0 auto;
+    padding:10px;
+}
+.sunny-image{
+
+    width:100px;
+    height:120px;
+    border:3px solid white;
+    border-radius: 50%;
+    float:left;
+    
+
+}
+.sunny-bio{
+    float:left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+
+    color:#11999e;
+}
+.sunny-contract{
+
+    float:right;
+    padding:30px;
+}
+.sunny-contract a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+
+}
+.sunny-contract a:hover{
+    color:tomato;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+
+    width: 100%;
+    border:solid black 3px;
+    margin:20px auto;
+    border-bottom: none;
+}
+.content{
+margin-bottom: 30px;
+}
+.left-div{
+width: 30%;
+float:left;
+}
+.right-div{
+    float:left;
+    width: 70%;
+    font-weight: bold;
+   
+
+}
+.common-hr{
+
+    border:solid black 1px;
+    border-bottom: none;
+    margin: 20 auto;
+    width:100%;
+
+}
+.education-templet-left{
+    float:left;
+    width: 45%;
+
+}
+.education-templet-right{
+    float:right;
+    width: 45%;
+}
+.refrence-templet-left{
+    float:left;
+    width: 45%;
+
+}
+.refrence-templet-right{
+    float:right;
+    width: 45%;
+    
+}
